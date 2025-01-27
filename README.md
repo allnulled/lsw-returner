@@ -1,6 +1,8 @@
-# controlled-function
+# lsw-returner
 
 API to return values through 1 outter function scope.
+
+Branch of [@allnulled/controlled-function](https://github.com/allnulled/controlled-function).
 
 Allows both:
 
@@ -13,7 +15,7 @@ Allows both:
 ## Installation
 
 ```sh
-npm i -s @allnulled/controlled-function
+npm i -s @allnulled/lsw-returner
 ```
 
 ## Importation
@@ -21,13 +23,13 @@ npm i -s @allnulled/controlled-function
 In node.js:
 
 ```js
-require("@allnulled/controlled-function");
+require("@allnulled/lsw-returner");
 ```
 
 In browser:
 
 ```html
-<script src="node_modules/@allnulled/controlled-function/controlled-function.js"></script>
+<script src="node_modules/@allnulled/lsw-returner/controlled-function.js"></script>
 ```
 
 ## Why interests?
