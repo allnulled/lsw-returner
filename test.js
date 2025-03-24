@@ -85,7 +85,7 @@ describe("ControlledFunction API Test", function () {
       let index = 0;
       Ciclo_de_vida_en_repeticiones: {
         while (!control.pipe("output", ["step1"])) {
-          // @TOINJECT: intercycle code
+          // !@TOINJECT: intercycle code
           console.log("Round: " + (++index));
         }
       }
